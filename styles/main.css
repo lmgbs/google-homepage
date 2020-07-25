@@ -1,1 +1,104 @@
-/* main css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #030303;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 10px 5px;
+}
+
+.logo {
+    cursor: pointer;
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+
+.color {
+    color: #ffffff;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-items: right;
+
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+
+}
+
+.search_engine {
+    position: relative;
+    top: 2in;
+}
+
+.submit_buttons {
+    position: relative;
+    left: 200px;
+}
+
+.search_buttons {
+    background-color: #8b8a8a;
+    
+}
+
+.text_field {
+    position: relative;
+    top: -20px;
+    left: 200px;
+    width: 370px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.footer_nav_links li {
+    position: relative;
+    top: 300px;
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    padding: 10px 5px;
+}
